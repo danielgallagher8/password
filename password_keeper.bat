@@ -1,1 +1,1 @@
-
+python ..\\password\password.py
