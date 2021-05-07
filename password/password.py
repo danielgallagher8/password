@@ -15,3 +15,12 @@ class App(QtWidgets.QMainWindow):
   
   def initial_layout(self):
     pass
+
+def run():
+  app = QtWidgets.QApplication(sys.argv)
+  win = App()
+  win.show()
+  sys.exit(app.exec_())
+
+if __name__ == '__main__':
+  run()
