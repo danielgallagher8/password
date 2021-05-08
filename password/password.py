@@ -409,6 +409,8 @@ class RunApp:
         win.show()
         sys.exit(self.app.exec_())
 
+"""
 if __name__ == '__main__':
     r = RunApp()
     r.run()
+"""
