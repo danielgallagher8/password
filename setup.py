@@ -5,7 +5,7 @@ import password
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
     
-requirements = ['PyQt', 'sqlite3', 'werkzeug']
+requirements = ['PyQt5', 'sqlite3', 'werkzeug']
 
 setup(
       name="password",
