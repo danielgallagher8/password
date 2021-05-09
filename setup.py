@@ -9,7 +9,7 @@ requirements = ['PyQt5', 'werkzeug']
 
 setup(
       name="password_keeper",
-      version=password.__version__,
+      version=password_keeper.__version__,
       author="Daniel Gallagher",
       author_email="daniel-gallagher@outlook.com",
       description="Password Keeper",
