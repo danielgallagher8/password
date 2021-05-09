@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-import password
+import password_keeper
 
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
@@ -8,14 +8,14 @@ with open("README.md", "r") as readme_file:
 requirements = ['PyQt5', 'werkzeug']
 
 setup(
-      name="password",
+      name="password_keeper",
       version=password.__version__,
       author="Daniel Gallagher",
       author_email="daniel-gallagher@outlook.com",
-      description="Password",
+      description="Password Keeper",
       long_description=readme,
       long_description_content_type="text/markdown",
-      url="https://github.com/danielgallagher8/password.git",
+      url="https://github.com/danielgallagher8/password_keeper.git",
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
