@@ -20,7 +20,7 @@ class App(QtWidgets.QMainWindow):
         
         #Set initial formatting
         self.setWindowTitle('Password Keeper')
-        self.setWindowIcon(QtGui.QIcon('./static/lock.png'))
+        #self.setWindowIcon(QtGui.QIcon('./static/lock.png'))
         self.setFont(QtGui.QFont('Calibri', 11))
         self.bold_font = QtGui.QFont('Calibri', 11)
         self.bold_font.setBold(True)
